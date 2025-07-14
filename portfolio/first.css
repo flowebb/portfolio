@@ -7,3 +7,22 @@
     background-image: url('../portfolio/images/mainphoto.jpg');
     background-size: cover;
 }
+.mobile-main {
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .first {
+        height: 70vh;
+    }
+    .first > .main {
+        display: none;
+    }
+    .mobile-main {
+        width: 100%;
+        height: 100%;
+        background-image: url('../portfolio/images/mobile-main.jpg');
+        background-size: cover;
+        display: block;
+    }
+}
