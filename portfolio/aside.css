@@ -16,3 +16,9 @@ aside > .contents > i {
     left: 220px;
     font-size: 25px;
 }
+
+@media screen and (max-width: 760px) {
+    aside > .contents {
+        bottom: 50px;
+    }
+}
